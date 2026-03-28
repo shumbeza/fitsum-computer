@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+.card {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    border-color: #facc15;
+    transform: translateY(-8px);
+}
+
+.btn-yellow {
+    background-color: #facc15;
+    color: #0a0a0a;
+    font-weight: 600;
+}
+
+.btn-yellow:hover {
+    background-color: #eab308;
+}
